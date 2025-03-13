@@ -1,0 +1,31 @@
+.link a{
+    float: left;
+    color: var(--secondary-text);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.link a:hover {
+    background-color: var(--primary-button);
+    color: var(--primary-text);
+}
+
+.link a.active {
+    background-color: #535bf2;
+    color: white;
+}
+
+.logo{
+    float: right;
+    color: var(--secondary-text);
+    text-align: center;
+    padding: 14px 16px 0;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+p{
+    margin: 0;
+}

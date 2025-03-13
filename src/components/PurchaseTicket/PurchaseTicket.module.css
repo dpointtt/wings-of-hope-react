@@ -1,0 +1,86 @@
+.purchaseContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-top: 50px;
+}
+
+input[type="text"] {
+    border-radius: 20px;
+    color: var(--secondary-text);
+    font-size: 18px;
+    border: none;
+    padding: 10px;
+    background-color: var(--primary-background);
+    height: 30px;
+    width: 300px;
+}
+
+.contactDetailsContainer{
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    border: 5px solid var(--primary-background);
+    align-items: start;
+    padding: 20px;
+    width: 700px;
+}
+
+.requiredText{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.requiredLabel{
+    display: flex;
+    flex-direction: row;
+    margin-left: 5px;
+}
+
+.red{
+    color: #de0b0b;
+}
+
+.nameInput{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.personInfo{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.firstName{
+    display: flex;
+    flex-direction: column;
+}
+
+.underInput{
+    width: 300px;
+    word-wrap: break-word;
+    text-align: start;
+}
+
+.buttonContainer{
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    margin-top: 20px;
+    gap: 20px;
+}
+
+.firstName input[type="date"]{
+    border-radius: 20px;
+    color: var(--secondary-text);
+    border: none;
+    padding: 10px;
+    background-color: var(--primary-background);
+    height: 30px;
+    width: 300px;
+}

@@ -1,0 +1,3 @@
+type Purchase = {
+    success: boolean
+}

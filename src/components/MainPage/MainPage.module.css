@@ -1,0 +1,44 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.logo {
+    margin-bottom: 30px;
+}
+
+.planeImg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.2;
+    width: 100%;
+    z-index: 0;
+    filter: blur(5px);
+}
+
+.info {
+    z-index: 1;
+    text-align: center;
+    color: #fff;
+}
+
+.additionalInfo{
+    z-index: 1;
+    margin-top: 30px;
+}
+
+.additionalInfo h3{
+    background: linear-gradient(to right, var(--primary-button), var(--accent));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+h1{
+    background: linear-gradient(to right, var(--primary-button), var(--accent));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
